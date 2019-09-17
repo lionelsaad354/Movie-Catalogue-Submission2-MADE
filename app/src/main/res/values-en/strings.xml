@@ -1,0 +1,403 @@
+<resources>
+    <string name="app_name">Movie Catalogue</string>
+    <string name="title">Title</string>
+    <string name="statue_film">Released</string>
+    <string name="release_date">December 12, 2018</string>
+    <string name="actor">Actor/Actress</string>
+    <string name="actor_name">Robert Downey Jr.</string>
+    <string name="desc_poster_detail">This is a poster image of the selected movie</string>
+    <string name="on">on</string>
+    <string name="original_language">Original Language</string>
+    <string name="language">Language</string>
+    <string name="budget">Budget</string>
+    <string name="budget_value">$2,000,200.00</string>
+    <string name="revenue">Revenue</string>
+    <string name="desc_ic_actor">This is an icon for actor items</string>
+    <string name="genre">Genre</string>
+    <string name="genre_value">Action</string>
+    <string name="overview">Overview</string>
+    <string name="overview_value">This is a overview of the film</string>
+    <string name="released_status">Released Status</string>
+    <string name="detail_movie">Detail Movie</string>
+
+    <string name="movie_show">Movie</string>
+    <string name="tv_show">Tv Show</string>
+    <string name="released_date">Released Date</string>
+    <string name="detail">Detail</string>
+    <string name="change_language">Change Language</string>
+    <string name="detail_tv_show">Detail Tv Show</string>
+    <string name="status_tv_show">Status Tv Show</string>
+    <string name="languages_tv_show">Languages</string>
+    <string name="runtime_tv_show">Runtime Tv Show</string>
+    <string name="network_tv_show">This is Image for Network Tv Show Is Selected</string>
+
+    <string-array name="title">
+        <item>A Star Is Born (2018)</item>
+        <item>Aquaman (2018)</item>
+        <item>Avengers:Infinity War (2018)</item>
+        <item>Bird Box (2018)</item>
+        <item>Bohemian Rhapsody (2018)</item>
+        <item>Bumblebee (2018)</item>
+        <item>Creed II (2018)</item>
+        <item>Once Upon a Deadpool (2018)</item>
+        <item>How to Train Your Dragon:The Hidden World (2019)</item>
+        <item>Dragon Ball Super (2015)</item>
+        <item>Glass (2019)</item>
+        <item>Hunter Killer (2019)</item>
+        <item>Mary Poppins Return (2018)</item>
+        <item>Mortal Engines (2018)</item>
+        <item>Preman Pensiun (2019)</item>
+        <item>Robin Hood (2018)</item>
+        <item>Spider-Man: Into The Spider-Verse (2018)</item>
+        <item>The Girl in The Spiders Web (2018)</item>
+        <item>The Mule (2018)</item>
+        <item>Venom (2018)</item>
+    </string-array>
+    <string-array name="release_date">
+        <item>October 13, 2018</item>
+        <item>December 07, 2018</item>
+        <item>April 25, 2018</item>
+        <item>December 13, 2018</item>
+        <item>October 24, 2018</item>
+        <item>December 15, 2018</item>
+        <item>November 21, 2018</item>
+        <item>November 11, 2018</item>
+        <item>January 03, 2019</item>
+        <item>July 05, 2015</item>
+        <item>January 16, 2019</item>
+        <item>October 19, 2018</item>
+        <item>December 13, 2018</item>
+        <item>November 27, 2018</item>
+        <item>January 17, 2019</item>
+        <item>November 20, 2018</item>
+        <item>December 06, 2018</item>
+        <item>October 25, 2018</item>
+        <item>December 14, 2018</item>
+        <item>September 28, 2018</item>
+    </string-array>
+    <string-array name="language">
+        <item>English</item>
+        <item>English</item>
+        <item>English</item>
+        <item>English</item>
+        <item>English</item>
+        <item>English</item>
+        <item>English</item>
+        <item>English</item>
+        <item>English</item>
+        <item>Japanese</item>
+        <item>English</item>
+        <item>English</item>
+        <item>English</item>
+        <item>English</item>
+        <item>Indonesian</item>
+        <item>English</item>
+        <item>English</item>
+        <item>English</item>
+        <item>English</item>
+        <item>English</item>
+    </string-array>
+    <string-array name="statue">
+        <item>Released</item>
+        <item>Released</item>
+        <item>Released</item>
+        <item>Released</item>
+        <item>Released</item>
+        <item>Released</item>
+        <item>Released</item>
+        <item>Released</item>
+        <item>Released</item>
+        <item>Released</item>
+        <item>Released</item>
+        <item>Released</item>
+        <item>Released</item>
+        <item>Released</item>
+        <item>Released</item>
+        <item>Released</item>
+        <item>Released</item>
+        <item>Released</item>
+        <item>Released</item>
+        <item>Released</item>
+    </string-array>
+    <string-array name="budget">
+        <item>$36,000,000.00</item>
+        <item>$160,000,000.00</item>
+        <item>$300,000,000.00</item>
+        <item>$19,800,000.00</item>
+        <item>$52,000,000.00</item>
+        <item>$135,000,000.00</item>
+        <item>$50,000,000.00</item>
+        <item>-</item>
+        <item>$129,000,000.00</item>
+        <item>-</item>
+        <item>$20,000,000.00</item>
+        <item>-</item>
+        <item>$130,000,000.00</item>
+        <item>$100,000,000.00</item>
+        <item>-</item>
+        <item>$100,000,000.00</item>
+        <item>$90,000,000.00</item>
+        <item>$43,000,000.00</item>
+        <item>$50,000,000.00</item>
+        <item>$116,000,000.00</item>
+    </string-array>
+    <string-array name="overview">
+        <item>Seasoned musician Jackson Maine discovers and falls in love with struggling artist Ally. She has just about given up on her dream to make it big as a singer until Jack coaxes her into the spotlight. But even as Allys career takes off, the personal side of their relationship is breaking down, as Jack fights an ongoing battle with his own internal demons.</item>
+        <item>Once home to the most advanced civilization on Earth, Atlantis is now an underwater kingdom ruled by the power-hungry King Orm. With a vast army at his disposal, Orm plans to conquer the remaining oceanic people and then the surface world. Standing in his way is Arthur Curry, Orms half-human, half-Atlantean brother and true heir to the throne.</item>
+        <item>As the Avengers and their allies have continued to protect the world from threats too large for any one hero to handle, a new danger has emerged from the cosmic shadows: Thanos. A despot of intergalactic infamy, his goal is to collect all six Infinity Stones, artifacts of unimaginable power, and use them to inflict his twisted will on all of reality. Everything the Avengers have fought for has led up to this moment - the fate of Earth and existence itself has never been more uncertain.</item>
+        <item>Five years after an ominous unseen presence drives most of society to suicide, a survivor and her two children make a desperate bid to reach safety.</item>
+        <item>Singer Freddie Mercury, guitarist Brian May, drummer Roger Taylor and bass guitarist John Deacon take the music world by storm when they form the rock n roll band Queen in 1970. Hit songs become instant classics. When Mercurys increasingly wild lifestyle starts to spiral out of control, Queen soon faces its greatest challenge yet – finding a way to keep the band together amid the success and excess.</item>
+        <item>On the run in the year 1987, Bumblebee finds refuge in a junkyard in a small Californian beach town. Charlie, on the cusp of turning 18 and trying to find her place in the world, discovers Bumblebee, battle-scarred and broken. When Charlie revives him, she quickly learns this is no ordinary yellow VW bug.</item>
+        <item>Between personal obligations and training for his next big fight against an opponent with ties to his familys past, Adonis Creed is up against the challenge of his life.</item>
+        <item>A kidnapped Fred Savage is forced to endure Deadpools PG-13 rendition of Deadpool 2 as a Princess Bride-esque story thats full of magic, wonder and zero Fs.</item>
+        <item>As Hiccup fulfills his dream of creating a peaceful dragon utopia, Toothless’ discovery of an untamed, elusive mate draws the Night Fury away. When danger mounts at home and Hiccup’s reign as village chief is tested, both dragon and rider must make impossible decisions to save their kind.</item>
+        <item>Set just after the events of the Buu Saga of Dragon Ball Z, a deadly threat awakens once more. People lived in peace without knowing who the true heroes were during the devastating battle against Majin Buu. The powerful Dragon Balls have prevented any permanent damage, and our heroes also continue to live a normal life. In the far reaches of the universe, however, a powerful being awakens early from his slumber, curious about a prophecy of his defeat.</item>
+        <item>In a series of escalating encounters, former security guard David Dunn uses his supernatural abilities to track Kevin Wendell Crumb, a disturbed man who has twenty-four personalities. Meanwhile, the shadowy presence of Elijah Price emerges as an orchestrator who holds secrets critical to both men.</item>
+        <item>Captain Glass of the USS Arkansas discovers that a coup d etat is taking place in Russia, so he and his crew join an elite group working on the ground to prevent a war.</item>
+        <item>In Depression-era London, a now-grown Jane and Michael Banks, along with Michaels three children, are visited by the enigmatic Mary Poppins following a personal loss. Through her unique magical skills, and with the aid of her friend Jack, she helps the family rediscover the joy and wonder missing in their lives.</item>
+        <item>Many thousands of years in the future, Earth’s cities roam the globe on huge wheels, devouring each other in a struggle for ever diminishing resources. On one of these massive traction cities, the old London, Tom Natsworthy has an unexpected encounter with a mysterious young woman from the wastelands who will change the course of his life forever.</item>
+        <item>We do not have an overview translated in English. Help us expand our database by adding one.</item>
+        <item>A war-hardened Crusader and his Moorish commander mount an audacious revolt against the corrupt English crown.</item>
+        <item>Miles Morales is juggling his life between being a high school student and being a spider-man. When Wilson Kingpin Fisk uses a super collider, others from across the Spider-Verse are transported to this dimension.</item>
+        <item>In Stockholm, Sweden, hacker Lisbeth Salander is hired by Frans Balder, a computer engineer, to retrieve a program that he believes it is too dangerous to exist.</item>
+        <item>Earl Stone, a man in his 80s, is broke, alone, and facing foreclosure of his business when he is offered a job that simply requires him to drive. Easy enough, but, unbeknownst to Earl, he’s just signed on as a drug courier for a Mexican cartel. He does so well that his cargo increases exponentially, and Earl hit the radar of hard-charging DEA agent Colin Bates.</item>
+        <item>Investigative journalist Eddie Brock attempts a comeback following a scandal, but accidentally becomes the host of Venom, a violent, super powerful alien symbiote. Soon, he must rely on his newfound powers to protect the world from a shadowy organization looking for a symbiote of their own.</item>
+    </string-array>
+    <string-array name="array_actor1">
+        <item>Lady Gaga</item>
+        <item>Jason Momoa</item>
+        <item>Robert Downey Jr.</item>
+        <item>Sandra Bullock</item>
+        <item>Rami Malek</item>
+        <item>Hailee Steinfeld</item>
+        <item>Michael B. Jordan</item>
+        <item>Ryan Reynolds</item>
+        <item>Jay Baruchel</item>
+        <item>Masako Nozawa</item>
+        <item>James McAvoy</item>
+        <item>Gerard Butler</item>
+        <item>Emily Blunt</item>
+        <item>Hera Hilmar</item>
+        <item>Epy Kusnandar</item>
+        <item>Taron Egerton</item>
+        <item>Shameik Moore</item>
+        <item>Claire Foy</item>
+        <item>Clint Eastwood</item>
+        <item>Tom Hardy</item>
+    </string-array>
+    <string-array name="array_actor2">
+        <item>Bradley Cooper</item>
+        <item>Amber Heard</item>
+        <item>Chris Hemsworth</item>
+        <item>Trevante Rhodes</item>
+        <item>Gwilym Lee</item>
+        <item>Jorge Lendeborg Jr.</item>
+        <item>Sylvester Stallone</item>
+        <item>Fred Savage</item>
+        <item>America Ferrera</item>
+        <item>Takeshi Kusao</item>
+        <item>Bruce Willis</item>
+        <item>Gary Oldman</item>
+        <item>Lin-Manuel Miranda</item>
+        <item>Robert Sheehan</item>
+        <item>Tya Arifin</item>
+        <item>Jamie Fox</item>
+        <item>Jake Johnson</item>
+        <item>Sverrir Gudnason</item>
+        <item>Bradley Cooper</item>
+        <item>Michelle Williams</item>
+    </string-array>
+    <string-array name="array_actor3">
+        <item>Sam Elliott</item>
+        <item>Willem Dafoe</item>
+        <item>Chris Evans</item>
+        <item>John Malkovic</item>
+        <item>Ben Hardy</item>
+        <item>John Cena</item>
+        <item>Dolph Lundgren</item>
+        <item>Josh Brolin</item>
+        <item>F. Murray Abraham</item>
+        <item>Ryou Horikawa</item>
+        <item>Samuel L. Jackson</item>
+        <item>Toby Stephens</item>
+        <item>Ben Whishaw</item>
+        <item>Hugo Weaving</item>
+        <item>Soraya Rasyid</item>
+        <item>Ben Mendelsohn</item>
+        <item>Hailee Steinfeld</item>
+        <item>Lakeith Stanfield</item>
+        <item>Laurence Fishburne</item>
+        <item>Riz Ahmed</item>
+    </string-array>
+    <string-array name="revenue">
+        <item>$433,888,866.00</item>
+        <item>$1,143,689,193.00</item>
+        <item>$2,046,239,637.00</item>
+        <item>-</item>
+        <item>$835,137,710.00</item>
+        <item>$465,895,025.00</item>
+        <item>$137,944,327.00</item>
+        <item>-</item>
+        <item>$517,526,875.00</item>
+        <item>-</item>
+        <item>$246,941,965.00</item>
+        <item>-</item>
+        <item>$348,807,090.00</item>
+        <item>$104,236,467.00</item>
+        <item>-</item>
+        <item>$73,260,114.00</item>
+        <item>$375,450,417.00</item>
+        <item>$17,894,345.00</item>
+        <item>$171,304,407.00</item>
+        <item>$855,013,954.00</item>
+    </string-array>
+    <string-array name="genre">
+        <item>Drama, Romance, Music</item>
+        <item>Action, Adventure, Fantasy</item>
+        <item>Adventure, Action, Fantasy</item>
+        <item>Thriller, Drama</item>
+        <item>Drama, Music</item>
+        <item>Action, Adventure, Science Fiction</item>
+        <item>Drama</item>
+        <item>Comedy, Action</item>
+        <item>Animation, Family, Adventure</item>
+        <item>Animation, Mystery, Action and Adventure</item>
+        <item>Thriller, Mystery, Drama</item>
+        <item>Action, Thriller</item>
+        <item>Fantasy, Family, Comedy</item>
+        <item>Adventure, Fantasy</item>
+        <item>Comedy, Drama</item>
+        <item>Adventure, Action, Thriller</item>
+        <item>Action, Animation, Science Fiction</item>
+        <item>Action, Crime, Thriller</item>
+        <item>Crime, Drama, Thriller</item>
+        <item>Science Fiction, Action</item>
+    </string-array>
+    <string-array name="array_poster">
+        <item>https://image.tmdb.org/t/p/w185_and_h278_bestv2/wrFpXMNBRj2PBiN4Z5kix51XaIZ.jpg</item>
+        <item>https://image.tmdb.org/t/p/w185_and_h278_bestv2/5Kg76ldv7VxeX9YlcQXiowHgdX6.jpg</item>
+        <item>https://image.tmdb.org/t/p/w185_and_h278_bestv2/7WsyChQLEftFiDOVTGkv3hFpyyt.jpg</item>
+        <item>https://image.tmdb.org/t/p/w185_and_h278_bestv2/rGfGfgL2pEPCfhIvqHXieXFn7gp.jpg</item>
+        <item>https://image.tmdb.org/t/p/w185_and_h278_bestv2/lHu1wtNaczFPGFDTrjCSzeLPTKN.jpg</item>
+        <item>https://image.tmdb.org/t/p/w185_and_h278_bestv2/fw02ONlDhrYjTSZV8XO6hhU3ds3.jpg</item>
+        <item>https://image.tmdb.org/t/p/w185_and_h278_bestv2/v3QyboWRoA4O9RbcsqH8tJMe8EB.jpg</item>
+        <item>https://image.tmdb.org/t/p/w185_and_h278_bestv2/5Ka49BWWyKMXr93YMbH5wLN7aAM.jpg</item>
+        <item>https://image.tmdb.org/t/p/w185_and_h278_bestv2/xvx4Yhf0DVH8G4LzNISpMfFBDy2.jpg</item>
+        <item>https://image.tmdb.org/t/p/w185_and_h278_bestv2/rs2d7K7yPiieuNvDltxbJpTJgQX.jpg</item>
+        <item>https://image.tmdb.org/t/p/w185_and_h278_bestv2/svIDTNUoajS8dLEo7EosxvyAsgJ.jpg</item>
+        <item>https://image.tmdb.org/t/p/w185_and_h278_bestv2/a0j18XNVhP4RcW3wXwsqT0kVoQm.jpg</item>
+        <item>https://image.tmdb.org/t/p/w185_and_h278_bestv2/uTVGku4LibMGyKgQvjBtv3OYfAX.jpg</item>
+        <item>https://image.tmdb.org/t/p/w185_and_h278_bestv2/iteUvQKCW0EqNQrIVzZGJntYq9s.jpg</item>
+        <item>https://image.tmdb.org/t/p/w185_and_h278_bestv2/7xfWyoz4SF5LHZ713eMtC2aZ0lT.jpg</item>
+        <item>https://image.tmdb.org/t/p/w185_and_h278_bestv2/AiRfixFcfTkNbn2A73qVJPlpkUo.jpg</item>
+        <item>https://image.tmdb.org/t/p/w185_and_h278_bestv2/iiZZdoQBEYBv6id8su7ImL0oCbD.jpg</item>
+        <item>https://image.tmdb.org/t/p/w185_and_h278_bestv2/w4ibr8R702DCjwYniry1D1XwQXj.jpg</item>
+        <item>https://image.tmdb.org/t/p/w185_and_h278_bestv2/klazQbxk3yfuZ8JcfO9jdKOZQJ7.jpg</item>
+        <item>https://image.tmdb.org/t/p/w185_and_h278_bestv2/2uNW4WbgBXL25BAbXGLnLqX71Sw.jpg</item>
+    </string-array>
+
+    <string-array name="title_tv_show">
+        <item>Legion (2017)</item>
+        <item>One-Punch Man (2015)</item>
+        <item>Marvels Agents of S.H.I.E.L.D (2013)</item>
+        <item>Final Space (2018)</item>
+        <item>Euphoria (2019)</item>
+        <item>Krypton (2018)</item>
+        <item>The Rook (2019)</item>
+        <item>Yu-Gi-Oh! VRAINS (2017)</item>
+        <item>Siren (2018)</item>
+        <item>Erkenci Kus (2018)</item>
+        <item>Ultraman Taiga (2019)</item>
+    </string-array>
+    <string-array name="overview_tv_show">
+        <item>David Haller, AKA Legion, is a troubled young man who may be more than human. Diagnosed as schizophrenic, David has been in and out of psychiatric hospitals for years. But after a strange encounter with a fellow patient, hes confronted with the possibility that the voices he hears and the visions he sees might be real.</item>
+        <item>Saitama is a hero who only became a hero for fun. After three years of “special” training, though, he’s become so strong that he’s practically invincible. In fact, he’s too strong—even his mightiest opponents are taken out with a single punch, and it turns out that being devastatingly powerful is actually kind of a bore. With his passion for being a hero lost along with his hair, yet still faced with new enemies every day, how much longer can he keep it going?</item>
+        <item>Agent Phil Coulson of S.H.I.E.L.D. (Strategic Homeland Intervention, Enforcement and Logistics Division) puts together a team of agents to investigate the new, the strange and the unknown around the globe, protecting the ordinary from the extraordinary.</item>
+        <item>An astronaut named Gary and his planet-destroying sidekick Mooncake embark on serialized journeys through space in order to unlock the mystery of Final Space, the last point in the universe, if it actually does exist.</item>
+        <item>A group of high school students navigate love and friendships in a world of drugs, sex, trauma, and social media.</item>
+        <item>Set two generations before the destruction of the legendary Man of Steel’s home planet, Krypton follows Superman’s grandfather — whose House of El was ostracized and shamed — as he fights to redeem his family’s honor and save his beloved world from chaos.</item>
+        <item>After waking in a park with total amnesia — and surrounded by dead bodies, all wearing latex gloves — a young woman must fight to uncover her past, and resume her position at the head of Britain’s most secret (supernatural) service before the traitors who stole her memory can finish what they started.</item>
+        <item>Den City is a city with advanced network systems in which a VR space called LINK VRAINS was created by SOL Technologies. The Knights of Hanoi, a group that hacks through dueling, as well as SOL Technologies are seeking a mysterious AI program. Yusaku Fujiki, also known as Playmaker, is a first year high school student who manages to capture this AI program while trying to find out the truth about an incident in the past.</item>
+        <item>The coastal town of Bristol Cove is known for its legend of once being home to mermaids. When the arrival of a mysterious girl proves this folklore all too true, the battle between man and sea takes a very vicious turn as these predatory beings return to reclaim their right to the ocean.</item>
+        <item>We do not have an overview translated in English. Help us expand our database by adding one.</item>
+        <item>Aliens have been emigrating to Earth secretly, but only a handful knows about this truth. Living in such a society, the main character Hiroyuki Kudo begins working at a private security organization E.G.I.S. (Enterprise of Guard and Investigation Services). The organization takes care of cases related with aliens, and Hiroyuki works day and night to protect peace. However, there lies a huge secret in him, which he himself is not aware of. He carries Ultraman Taigas particle of light. The new story begins as Taigas powers revive from Hiroyukis body!</item>
+    </string-array>
+    <string-array name="status_tv_show">
+        <item>Returning Series</item>
+        <item>Returning Series</item>
+        <item>Returning Series</item>
+        <item>Returning Series</item>
+        <item>Returning Series</item>
+        <item>Returning Series</item>
+        <item>Returning Series</item>
+        <item>Returning Series</item>
+        <item>Returning Series</item>
+        <item>Returning Series</item>
+        <item>Returning Series</item>
+    </string-array>
+    <string-array name="network">
+        <item>https://image.tmdb.org/t/p/h30/aexGjtcs42DgRtZh7zOxayiry4J.png</item>
+        <item>https://image.tmdb.org/t/p/h30/kGRavMqgyx4p2X4C96bjRCj50oI.png</item>
+        <item>https://image.tmdb.org/t/p/h30/ndAvF4JLsliGreX87jAc9GdjmJY.png</item>
+        <item>https://image.tmdb.org/t/p/h30/65r0kR6MfOBYF0gEQsJGM6v5fEG.png</item>
+        <item>https://image.tmdb.org/t/p/h30/tuomPhY2UtuPTqqFnKMVHvSb724.png</item>
+        <item>https://image.tmdb.org/t/p/h30/iYfrkobwDhTOFJ4AXYPSLIEeaAT.png</item>
+        <item>https://image.tmdb.org/t/p/h30/8GJjw3HHsAJYwIWKIPBPfqMxlEa.png</item>
+        <item>https://image.tmdb.org/t/p/h30/kGRavMqgyx4p2X4C96bjRCj50oI.png</item>
+        <item>https://image.tmdb.org/t/p/h30/rsz16keQ0hiBWYpaKIFspsMwuqj.png</item>
+        <item>https://image.tmdb.org/t/p/h30/qWvC2SCqIGhm7hPGtqaPjL4tPvx.png</item>
+        <item>https://image.tmdb.org/t/p/h30/kGRavMqgyx4p2X4C96bjRCj50oI.png</item>
+    </string-array>
+    <string-array name="languages_tv_show">
+        <item>English</item>
+        <item>Japanese</item>
+        <item>English</item>
+        <item>English</item>
+        <item>English</item>
+        <item>English</item>
+        <item>English</item>
+        <item>Japanese</item>
+        <item>English</item>
+        <item>Turkish</item>
+        <item>Japanese</item>
+    </string-array>
+    <string-array name="runtime">
+        <item>50 Minutes</item>
+        <item>24 Minutes</item>
+        <item>43 Minutes</item>
+        <item>22 Minutes</item>
+        <item>53 Minutes</item>
+        <item>45 Minutes</item>
+        <item>-</item>
+        <item>24 Minutes</item>
+        <item>42 Minutes</item>
+        <item>120 Minutes</item>
+        <item>25 Minutes</item>
+    </string-array>
+    <string-array name="genre_tv_show">
+        <item>Action and Adventure, SCI-FI and Fantasy</item>
+        <item>Action and Adventure, Animation, Commedy</item>
+        <item>Drama, Action and Adventure, SCI-FI and Fantasy</item>
+        <item>Action and Adventure, Animation</item>
+        <item>Drama</item>
+        <item>Drama, Action and Adventure, SCI-FI and Fantasy</item>
+        <item>Mysteri, SCI-FI and Fantasy</item>
+        <item>Animation, Action and Adventure, SCI-FI and Fantasy</item>
+        <item>Drama, SCI-FI and Fantasy</item>
+        <item>Drama, Comedy</item>
+        <item>Action and Adventure, SCI-FI and Fantasy</item>
+    </string-array>
+    <string-array name="thumb_tv_show">
+        <item>https://image.tmdb.org/t/p/w600_and_h900_bestv2/vT0Zsbm4GWd7llNjgWEtwY0CqOv.jpg</item>
+        <item>https://image.tmdb.org/t/p/w600_and_h900_bestv2/iE3s0lG5QVdEHOEZnoAxjmMtvne.jpg</item>
+        <item>https://image.tmdb.org/t/p/w600_and_h900_bestv2/cXiETfFK1BTLest5fhTLfDLRdL6.jpg</item>
+        <item>https://image.tmdb.org/t/p/w600_and_h900_bestv2/gPUW5fUKZtLkmlWqZteLBeXPymC.jpg</item>
+        <item>https://image.tmdb.org/t/p/w600_and_h900_bestv2/5mi3aRl16yKmfpQJMzvqN5TXkdA.jpg</item>
+        <item>https://image.tmdb.org/t/p/w600_and_h900_bestv2/uiinjmSkka6JOrk4FsZmrjlNM26.jpg</item>
+        <item>https://image.tmdb.org/t/p/w600_and_h900_bestv2/wwAy8PF5fx1ttY5T4pltL2vxNgs.jpg</item>
+        <item>https://image.tmdb.org/t/p/w600_and_h900_bestv2/Ss2dAiauxSKI3OsM8wV94T4ibq.jpg</item>
+        <item>https://image.tmdb.org/t/p/w600_and_h900_bestv2/jYwhgaPwDbgC1MneMsAZTkcPcLJ.jpg</item>
+        <item>https://image.tmdb.org/t/p/w600_and_h900_bestv2/q3W3WBoprwN4Nru8BQAOTlN0CIO.jpg</item>
+        <item>https://image.tmdb.org/t/p/w600_and_h900_bestv2/gHTpqyNBt2Tcd396xzDdU7D35Mh.jpg</item>
+    </string-array>
+</resources>

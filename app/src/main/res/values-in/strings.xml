@@ -1,0 +1,403 @@
+<resources>
+    <string name="app_name">Movie Catalogue</string>
+    <string name="title">Judul</string>
+    <string name="statue_film">Rilis</string>
+    <string name="release_date">12 Desember 2018</string>
+    <string name="actor">Aktor/Aktris</string>
+    <string name="actor_name">Robert Downey Jr.</string>
+    <string name="desc_poster_detail">Ini adalah gambar poster dari film yang dipilih</string>
+    <string name="on">pada</string>
+    <string name="original_language">Bahasa Asli</string>
+    <string name="language">Bahasa</string>
+    <string name="budget">Anggaran</string>
+    <string name="budget_value">Rp. 27.963.896.110,00</string>
+    <string name="revenue">Penghasilan</string>
+    <string name="desc_ic_actor">Ini adalah ikon untuk item aktor</string>
+    <string name="genre">Kategori</string>
+    <string name="genre_value">Aksi</string>
+    <string name="overview">Deskripsi</string>
+    <string name="overview_value">Ini adalah ikhtisar dari film ini</string>
+    <string name="released_status">Status Rilis</string>
+    <string name="detail_movie">Detail Film</string>
+
+    <string name="movie_show">Film</string>
+    <string name="tv_show">Acara TV</string>
+    <string name="released_date">Tanggal Rilis</string>
+    <string name="detail">Detail</string>
+    <string name="change_language">Ganti Bahasa</string>
+    <string name="detail_tv_show">Detail Acara TV</string>
+    <string name="status_tv_show">Status Acara TV</string>
+    <string name="languages_tv_show">Bahasa</string>
+    <string name="runtime_tv_show">Lama Acara TV</string>
+    <string name="network_tv_show">Ini adalah Gambar untuk Jaringan Acara Tv Yang Dipilih</string>
+
+    <string-array name="title">
+        <item>A Star Is Born (2018)</item>
+        <item>Aquaman (2018)</item>
+        <item>Avengers:Infinity War (2018)</item>
+        <item>Bird Box (2018)</item>
+        <item>Bohemian Rhapsody (2018)</item>
+        <item>Bumblebee (2018)</item>
+        <item>Creed II (2018)</item>
+        <item>Once Upon a Deadpool (2018)</item>
+        <item>How to Train Your Dragon:The Hidden World (2019)</item>
+        <item>Dragon Ball Super (2015)</item>
+        <item>Glass (2019)</item>
+        <item>Hunter Killer (2019)</item>
+        <item>Mary Poppins Return (2018)</item>
+        <item>Mortal Engines (2018)</item>
+        <item>Preman Pensiun (2019)</item>
+        <item>Robin Hood (2018)</item>
+        <item>Spider-Man: Into The Spider-Verse (2018)</item>
+        <item>The Girl in The Spiders Web (2018)</item>
+        <item>The Mule (2018)</item>
+        <item>Venom (2018)</item>
+    </string-array>
+    <string-array name="release_date">
+        <item>13 Oktober 2018</item>
+        <item>07 Desember 2018</item>
+        <item>25 April 2018</item>
+        <item>13 Desember 2018</item>
+        <item>24 Oktober 2018</item>
+        <item>15 Desember 2018</item>
+        <item>21 November 2018</item>
+        <item>11 November 2018</item>
+        <item>03 Januari 2019</item>
+        <item>05 Juli 2015</item>
+        <item>16 Januari 2019</item>
+        <item>19 Oktober 2018</item>
+        <item>13 Desember 2018</item>
+        <item>27 November 2018</item>
+        <item>17 Januari 2019</item>
+        <item>20 November 2018</item>
+        <item>06 Desember 2018</item>
+        <item>25 Oktober 2018</item>
+        <item>14 Desember 2018</item>
+        <item>28 September 2018</item>
+    </string-array>
+    <string-array name="language">
+        <item>Inggris</item>
+        <item>Inggris</item>
+        <item>Inggris</item>
+        <item>Inggris</item>
+        <item>Inggris</item>
+        <item>Inggris</item>
+        <item>Inggris</item>
+        <item>Inggris</item>
+        <item>Inggris</item>
+        <item>Jepang</item>
+        <item>Inggris</item>
+        <item>Inggris</item>
+        <item>Inggris</item>
+        <item>Inggris</item>
+        <item>Indonesia</item>
+        <item>Inggris</item>
+        <item>Inggris</item>
+        <item>Inggris</item>
+        <item>Inggris</item>
+        <item>Inggris</item>
+    </string-array>
+    <string-array name="statue">
+        <item>Rilis</item>
+        <item>Rilis</item>
+        <item>Rilis</item>
+        <item>Rilis</item>
+        <item>Rilis</item>
+        <item>Rilis</item>
+        <item>Rilis</item>
+        <item>Rilis</item>
+        <item>Rilis</item>
+        <item>Rilis</item>
+        <item>Rilis</item>
+        <item>Rilis</item>
+        <item>Rilis</item>
+        <item>Rilis</item>
+        <item>Rilis</item>
+        <item>Rilis</item>
+        <item>Rilis</item>
+        <item>Rilis</item>
+        <item>Rilis</item>
+        <item>Rilis</item>
+    </string-array>
+    <string-array name="budget">
+        <item>Rp. 503.299.800.000,00</item>
+        <item>Rp. 2.236.888.000.000,00</item>
+        <item>Rp. 4.194.165.000.000,00</item>
+        <item>Rp. 276.814.890.000,00</item>
+        <item>Rp. 726.988.600.000,00</item>
+        <item>Rp. 1.887.374.250.000,00</item>
+        <item>Rp. 699.027.500.000,00</item>
+        <item>-</item>
+        <item>Rp. 1.803.490.950.000,00</item>
+        <item>-</item>
+        <item>Rp. 279.611.000.000,00</item>
+        <item>-</item>
+        <item>Rp. 1.817.471.500.000,00</item>
+        <item>Rp. 1.398.055.000.000,00</item>
+        <item>-</item>
+        <item>Rp. 1.398.055.000.000,00</item>
+        <item>Rp. 1.258.249.500.000,00</item>
+        <item>Rp. 601.163.650.000,00</item>
+        <item>Rp. 699.027.500.000,00</item>
+        <item>Rp. 1.621.743.800.000,00</item>
+    </string-array>
+    <string-array name="overview">
+        <item>Musisi kawakan, Jackson Maine, menemukan dan jatuh cinta pada artis yang sedang berjuang, Ally. Dia baru saja menyerah pada mimpinya untuk menjadi besar sebagai penyanyi sampai Jack membujuknya menjadi sorotan. Tetapi bahkan ketika karir Allys lepas landas, sisi pribadi dari hubungan mereka hancur, ketika Jack berjuang secara terus-menerus dengan iblis internalnya sendiri.</item>
+        <item>Dulunya merupakan rumah bagi peradaban paling maju di Bumi, Atlantis sekarang merupakan kerajaan bawah laut yang diperintah oleh Raja Orm yang haus kekuasaan. Dengan pasukan yang sangat besar, Orm berencana untuk menaklukkan orang-orang samudera yang tersisa dan kemudian ke permukaan dunia. Yang menghalangi jalannya adalah Arthur Curry, lelaki setengah manusia Orm, setengah saudara Atlantis dan pewaris sejati takhta.</item>
+        <item>Ketika Avengers dan sekutu mereka terus melindungi dunia dari ancaman yang terlalu besar untuk ditangani oleh satu pahlawan, bahaya baru telah muncul dari bayang-bayang kosmik: Thanos. Seorang lalim penghinaan intergalaksi, tujuannya adalah untuk mengumpulkan semua enam Batu Infinity, artefak kekuatan tak terbayangkan, dan menggunakannya untuk menimbulkan keinginannya yang terpelintir pada semua kenyataan. Segala yang Avengers telah perjuangkan telah mengarah ke saat ini - nasib Bumi dan keberadaannya sendiri tidak pernah lebih pasti.</item>
+        <item>Lima tahun setelah kehadiran tak terlihat yang tak menyenangkan membuat sebagian besar masyarakat bunuh diri, seorang yang selamat dan dua anaknya melakukan upaya putus asa untuk mencapai keselamatan.</item>
+        <item>Penyanyi Freddie Mercury, gitaris Brian May, drummer Roger Taylor dan gitaris John Deacon mengambil dunia musik dengan badai ketika mereka membentuk band rock n roll Queen pada tahun 1970. Lagu-lagu hit menjadi klasik instan. Ketika gaya hidup Mercurys yang semakin liar mulai lepas kendali, Queen segera menghadapi tantangan terbesarnya - menemukan cara untuk menjaga band bersama di tengah kesuksesan dan kelebihan.</item>
+        <item>Dalam pelarian pada tahun 1987, Bumblebee menemukan tempat perlindungan di tempat barang rongsokan di kota pantai kecil California. Charlie, di puncak usia 18 dan berusaha menemukan tempatnya di dunia, menemukan Bumblebee, bekas luka pertempuran dan patah. Ketika Charlie menghidupkannya, dia dengan cepat mengetahui bahwa ini bukan bug VW kuning biasa.</item>
+        <item>Antara kewajiban pribadi dan pelatihan untuk pertarungan besar berikutnya melawan lawan yang memiliki ikatan dengan masa lalu keluarganya, Adonis Creed menghadapi tantangan hidupnya.</item>
+        <item>Fred Savage yang diculik dipaksa untuk menahan Deadpool PG-13 membawakan Deadpool 2 sebagai kisah Putri Pengantin yang penuh keajaiban, keajaiban, dan nol Fs.</item>
+        <item>Ketika Hiccup memenuhi mimpinya untuk menciptakan utopia naga yang damai, penemuan Toothless dari pasangan yang tak teruji dan sukar ditangkap membuat Night Fury menjauh. Ketika bahaya meningkat di rumah dan pemerintahan Hiccup sebagai kepala desa diuji, baik naga dan pengendara harus membuat keputusan yang mustahil untuk menyelamatkan jenis mereka.</item>
+        <item>Ditetapkan tepat setelah peristiwa Buu Saga dari Dragon Ball Z, ancaman mematikan muncul sekali lagi. Orang-orang hidup dalam damai tanpa mengetahui siapa pahlawan sejati selama pertempuran dahsyat melawan Majin Buu. Dragon Balls yang kuat telah mencegah kerusakan permanen, dan pahlawan kami juga terus hidup normal. Namun, di ujung jagat raya, makhluk yang kuat terbangun lebih awal dari tidurnya, ingin tahu tentang ramalan kekalahannya.</item>
+        <item>Dalam serangkaian pertemuan yang meningkat, mantan penjaga keamanan David Dunn menggunakan kemampuan supernaturalnya untuk melacak Kevin Wendell Crumb, seorang lelaki terganggu yang memiliki dua puluh empat kepribadian. Sementara itu, kehadiran bayangan Elia Price muncul sebagai seorang orkestra yang menyimpan rahasia penting bagi keduanya.</item>
+        <item>Kapten Glass dari USS Arkansas menemukan bahwa kudeta sedang terjadi di Rusia, jadi ia dan krunya bergabung dengan kelompok elit yang bekerja di lapangan untuk mencegah perang.</item>
+        <item>Dalam London era Depresi, Jane dan Michael Banks yang sudah dewasa, bersama dengan Michaels, tiga anak, dikunjungi oleh Mary Poppins yang penuh teka-teki setelah kehilangan pribadi. Melalui keterampilan magisnya yang unik, dan dengan bantuan temannya Jack, dia membantu keluarga menemukan kembali sukacita dan keajaiban yang hilang dalam hidup mereka.</item>
+        <item>Beribu-ribu tahun di masa depan, kota-kota di bumi menjelajah dunia dengan roda besar, saling melahap dalam perjuangan untuk sumber daya yang semakin berkurang. Di salah satu kota traksi besar ini, London tua, Tom Natsworthy mengalami pertemuan tak terduga dengan seorang wanita muda misterius dari daerah terlantar yang akan mengubah jalan hidupnya selamanya.</item>
+        <item>Kami tidak memiliki tinjauan yang diterjemahkan dalam bahasa Inggris. Bantu kami memperluas basis data kami dengan menambahkan satu.</item>
+        <item>Seorang pejuang perang yang keras dan komandan Moornya melakukan pemberontakan yang berani melawan mahkota Inggris yang korup.</item>
+        <item>Miles Morales menyulap hidupnya antara menjadi siswa sekolah menengah dan menjadi manusia laba-laba. Ketika Wilson Kingpin Fisk menggunakan collider super, yang lain dari seberang Spider-Verse diangkut ke dimensi ini.</item>
+        <item>Di Stockholm, Swedia, peretas Lisbeth Salander disewa oleh Frans Balder, seorang insinyur komputer, untuk mengambil program yang menurutnya terlalu berbahaya untuk ada.</item>
+        <item>Earl Stone, seorang pria berusia 80-an, bangkrut, sendirian, dan menghadapi penyitaan bisnisnya ketika ia ditawari pekerjaan yang hanya mengharuskannya mengemudi. Cukup mudah, tetapi, tanpa diketahui Earl, dia baru saja mendaftar sebagai kurir narkoba untuk kartel Meksiko. Dia melakukannya dengan baik sehingga muatannya meningkat secara eksponensial, dan Earl menabrak radar agen DEA yang sibuk mengisi daya.</item>
+        <item>Jurnalis investigasi Eddie Brock mencoba untuk kembali setelah skandal, tetapi secara tidak sengaja menjadi tuan rumah Venom, seorang simbiot alien yang sangat kuat dan sakti. Segera, ia harus mengandalkan kekuatan barunya untuk melindungi dunia dari organisasi bayangan yang mencari simbiosis mereka sendiri.</item>
+    </string-array>
+    <string-array name="array_actor1">
+        <item>Lady Gaga</item>
+        <item>Jason Momoa</item>
+        <item>Robert Downey Jr.</item>
+        <item>Sandra Bullock</item>
+        <item>Rami Malek</item>
+        <item>Hailee Steinfeld</item>
+        <item>Michael B. Jordan</item>
+        <item>Ryan Reynolds</item>
+        <item>Jay Baruchel</item>
+        <item>Masako Nozawa</item>
+        <item>James McAvoy</item>
+        <item>Gerard Butler</item>
+        <item>Emily Blunt</item>
+        <item>Hera Hilmar</item>
+        <item>Epy Kusnandar</item>
+        <item>Taron Egerton</item>
+        <item>Shameik Moore</item>
+        <item>Claire Foy</item>
+        <item>Clint Eastwood</item>
+        <item>Tom Hardy</item>
+    </string-array>
+    <string-array name="array_actor2">
+        <item>Bradley Cooper</item>
+        <item>Amber Heard</item>
+        <item>Chris Hemsworth</item>
+        <item>Trevante Rhodes</item>
+        <item>Gwilym Lee</item>
+        <item>Jorge Lendeborg Jr.</item>
+        <item>Sylvester Stallone</item>
+        <item>Fred Savage</item>
+        <item>America Ferrera</item>
+        <item>Takeshi Kusao</item>
+        <item>Bruce Willis</item>
+        <item>Gary Oldman</item>
+        <item>Lin-Manuel Miranda</item>
+        <item>Robert Sheehan</item>
+        <item>Tya Arifin</item>
+        <item>Jamie Fox</item>
+        <item>Jake Johnson</item>
+        <item>Sverrir Gudnason</item>
+        <item>Bradley Cooper</item>
+        <item>Michelle Williams</item>
+    </string-array>
+    <string-array name="array_actor3">
+        <item>Sam Elliott</item>
+        <item>Willem Dafoe</item>
+        <item>Chris Evans</item>
+        <item>John Malkovic</item>
+        <item>Ben Hardy</item>
+        <item>John Cena</item>
+        <item>Dolph Lundgren</item>
+        <item>Josh Brolin</item>
+        <item>F. Murray Abraham</item>
+        <item>Ryou Horikawa</item>
+        <item>Samuel L. Jackson</item>
+        <item>Toby Stephens</item>
+        <item>Ben Whishaw</item>
+        <item>Hugo Weaving</item>
+        <item>Soraya Rasyid</item>
+        <item>Ben Mendelsohn</item>
+        <item>Hailee Steinfeld</item>
+        <item>Lakeith Stanfield</item>
+        <item>Laurence Fishburne</item>
+        <item>Riz Ahmed</item>
+    </string-array>
+    <string-array name="revenue">
+        <item>Rp. 6.066.004.985.556,00</item>
+        <item>Rp. 15.989.403.947.196,00</item>
+        <item>Rp. 28.607.555.557.060,00</item>
+        <item>-</item>
+        <item>Rp. 11.675.684.511.540,00</item>
+        <item>Rp. 6.513.468.691.763,00</item>
+        <item>Rp. 1.928.537.560.839,00</item>
+        <item>-</item>
+        <item>Rp. 7.235.310.352.281,00</item>
+        <item>-</item>
+        <item>Rp. 3.452.384.488.780,00</item>
+        <item>-</item>
+        <item>Rp. 4.876.514.962.099,00</item>
+        <item>Rp. 1.457.283.138.716,00</item>
+        <item>-</item>
+        <item>Rp. 1.024.216.686.782,00</item>
+        <item>Rp. 5.249.003.327.389,00</item>
+        <item>Rp. 250.172.784.989,00</item>
+        <item>Rp. 2.394.929.827.283,00</item>
+        <item>Rp. 11.953.565.334.594,00</item>
+    </string-array>
+    <string-array name="genre">
+        <item>Drama, Romansa, Musik</item>
+        <item>Aksi, Petualangan, Fantasi</item>
+        <item>Aksi, Petualangan, Fantasi</item>
+        <item>Thriller, Drama</item>
+        <item>Drama, Musik</item>
+        <item>Aksi, Petualangan, Fiksi Ilmiah</item>
+        <item>Drama</item>
+        <item>Komedi, Aksi</item>
+        <item>Animasi, Keluarga, Petualangan</item>
+        <item>Animasi, Misteri, Aksi dan Petualangan</item>
+        <item>Thriller, Misteri, Drama</item>
+        <item>Aksi, Thriller</item>
+        <item>Fantasi, Keluarga, Komedi</item>
+        <item>Petualangan, Fantasi</item>
+        <item>Komedi, Drama</item>
+        <item>Petualangan, Aksi, Thriller</item>
+        <item>Aksi, Animasi, Fiksi Ilmiah</item>
+        <item>Aksi, Kejahatan, Thriller</item>
+        <item>Kejahatan, Drama, Thriller</item>
+        <item>Fiksi Ilmiah, Aksi</item>
+    </string-array>
+    <string-array name="array_poster">
+        <item>https://image.tmdb.org/t/p/w185_and_h278_bestv2/wrFpXMNBRj2PBiN4Z5kix51XaIZ.jpg</item>
+        <item>https://image.tmdb.org/t/p/w185_and_h278_bestv2/5Kg76ldv7VxeX9YlcQXiowHgdX6.jpg</item>
+        <item>https://image.tmdb.org/t/p/w185_and_h278_bestv2/7WsyChQLEftFiDOVTGkv3hFpyyt.jpg</item>
+        <item>https://image.tmdb.org/t/p/w185_and_h278_bestv2/rGfGfgL2pEPCfhIvqHXieXFn7gp.jpg</item>
+        <item>https://image.tmdb.org/t/p/w185_and_h278_bestv2/lHu1wtNaczFPGFDTrjCSzeLPTKN.jpg</item>
+        <item>https://image.tmdb.org/t/p/w185_and_h278_bestv2/fw02ONlDhrYjTSZV8XO6hhU3ds3.jpg</item>
+        <item>https://image.tmdb.org/t/p/w185_and_h278_bestv2/v3QyboWRoA4O9RbcsqH8tJMe8EB.jpg</item>
+        <item>https://image.tmdb.org/t/p/w185_and_h278_bestv2/5Ka49BWWyKMXr93YMbH5wLN7aAM.jpg</item>
+        <item>https://image.tmdb.org/t/p/w185_and_h278_bestv2/xvx4Yhf0DVH8G4LzNISpMfFBDy2.jpg</item>
+        <item>https://image.tmdb.org/t/p/w185_and_h278_bestv2/rs2d7K7yPiieuNvDltxbJpTJgQX.jpg</item>
+        <item>https://image.tmdb.org/t/p/w185_and_h278_bestv2/svIDTNUoajS8dLEo7EosxvyAsgJ.jpg</item>
+        <item>https://image.tmdb.org/t/p/w185_and_h278_bestv2/a0j18XNVhP4RcW3wXwsqT0kVoQm.jpg</item>
+        <item>https://image.tmdb.org/t/p/w185_and_h278_bestv2/uTVGku4LibMGyKgQvjBtv3OYfAX.jpg</item>
+        <item>https://image.tmdb.org/t/p/w185_and_h278_bestv2/iteUvQKCW0EqNQrIVzZGJntYq9s.jpg</item>
+        <item>https://image.tmdb.org/t/p/w185_and_h278_bestv2/7xfWyoz4SF5LHZ713eMtC2aZ0lT.jpg</item>
+        <item>https://image.tmdb.org/t/p/w185_and_h278_bestv2/AiRfixFcfTkNbn2A73qVJPlpkUo.jpg</item>
+        <item>https://image.tmdb.org/t/p/w185_and_h278_bestv2/iiZZdoQBEYBv6id8su7ImL0oCbD.jpg</item>
+        <item>https://image.tmdb.org/t/p/w185_and_h278_bestv2/w4ibr8R702DCjwYniry1D1XwQXj.jpg</item>
+        <item>https://image.tmdb.org/t/p/w185_and_h278_bestv2/klazQbxk3yfuZ8JcfO9jdKOZQJ7.jpg</item>
+        <item>https://image.tmdb.org/t/p/w185_and_h278_bestv2/2uNW4WbgBXL25BAbXGLnLqX71Sw.jpg</item>
+    </string-array>
+
+    <string-array name="title_tv_show">
+        <item>Legion (2017)</item>
+        <item>One-Punch Man (2015)</item>
+        <item>Marvels Agents of S.H.I.E.L.D (2013)</item>
+        <item>Final Space (2018)</item>
+        <item>Euphoria (2019)</item>
+        <item>Krypton (2018)</item>
+        <item>The Rook (2019)</item>
+        <item>Yu-Gi-Oh! VRAINS (2017)</item>
+        <item>Siren (2018)</item>
+        <item>Erkenci Kus (2018)</item>
+        <item>Ultraman Taiga (2019)</item>
+    </string-array>
+    <string-array name="overview_tv_show">
+        <item>David Haller, Legiun AKA, adalah seorang pemuda bermasalah yang mungkin lebih dari manusia. Didiagnosis sebagai penderita skizofrenia, David telah keluar masuk rumah sakit jiwa selama bertahun-tahun. Tapi setelah pertemuan aneh dengan sesama pasien, dia berhadapan dengan kemungkinan bahwa suara yang dia dengar dan penglihatan yang dia lihat mungkin nyata.</item>
+        <item>Saitama adalah pahlawan yang hanya menjadi pahlawan untuk bersenang-senang. Namun, setelah tiga tahun pelatihan "istimewa", ia menjadi begitu kuat sehingga praktis tidak terkalahkan. Faktanya, dia terlalu kuat — bahkan lawan terkuatnya dikeluarkan dengan satu pukulan, dan ternyata menjadi sangat dahsyat sebenarnya agak membosankan. Dengan hasratnya untuk menjadi pahlawan yang hilang bersamaan dengan rambutnya, namun masih berhadapan dengan musuh baru setiap hari, berapa lama lagi dia bisa mempertahankannya?</item>
+        <item>Agen Phil Coulson dari S.H.I.E.L.D. (Divisi Intervensi, Penegakan dan Logistik Tanah Air Strategis) membentuk tim agen untuk menyelidiki yang baru, yang aneh dan tidak diketahui di seluruh dunia, melindungi yang biasa dari yang luar biasa.</item>
+        <item>Seorang astronot bernama Gary dan sahabat karib Mooncake yang menghancurkan planetnya memulai perjalanan berseri melalui ruang untuk membuka misteri Ruang Akhir, titik terakhir di alam semesta, jika memang ada.</item>
+        <item>Sekelompok siswa sekolah menengah menavigasi cinta dan persahabatan dalam dunia narkoba, seks, trauma, dan media sosial.</item>
+        <item>Ditetapkan dua generasi sebelum penghancuran planet rumah Man of Steel yang legendaris, Krypton mengikuti kakek Superman - yang House Elnya dikucilkan dan dipermalukan - saat ia berjuang untuk menebus kehormatan keluarganya dan menyelamatkan dunianya yang tercinta dari kekacauan.</item>
+        <item>Setelah bangun di taman dengan amnesia total - dan dikelilingi oleh mayat, semuanya mengenakan sarung tangan lateks - seorang wanita muda harus berjuang untuk mengungkap masa lalunya, dan melanjutkan posisinya di kepala dinas rahasia (supranatural) Inggris sebelum pengkhianat yang mencuri ingatannya bisa menyelesaikan apa yang mereka mulai.</item>
+        <item>Den City adalah kota dengan sistem jaringan canggih di mana ruang VR yang disebut LINK VRAINS dibuat oleh SOL Technologies. The Knights of Hanoi, sebuah kelompok yang meretas melalui duel, serta SOL Technologies mencari program AI yang misterius. Yusaku Fujiki, juga dikenal sebagai Playmaker, adalah siswa SMA tahun pertama yang berhasil menangkap program AI ini ketika mencoba mencari tahu kebenaran tentang sebuah insiden di masa lalu.</item>
+        <item>Kota pesisir Bristol Cove terkenal dengan legenda pernah menjadi rumah bagi putri duyung. Ketika kedatangan seorang gadis misterius membuktikan cerita rakyat ini terlalu benar, pertempuran antara manusia dan laut berubah sangat kejam ketika makhluk-makhluk predator ini kembali untuk merebut kembali hak mereka atas lautan.</item>
+        <item>Kami tidak memiliki tinjauan yang diterjemahkan dalam bahasa Inggris. Bantu kami memperluas basis data kami dengan menambahkan satu.</item>
+        <item>Alien telah beremigrasi ke Bumi secara diam-diam, tetapi hanya sedikit yang tahu tentang kebenaran ini. Hidup dalam masyarakat seperti itu, karakter utama Hiroyuki Kudo mulai bekerja di organisasi keamanan swasta E.G.I.S. (Perusahaan Layanan Penjaga dan Investigasi). Organisasi ini menangani kasus-kasus yang berhubungan dengan alien, dan Hiroyuki bekerja siang dan malam untuk melindungi perdamaian. Namun, ada rahasia besar dalam dirinya, yang dia sendiri tidak sadari. Dia membawa partikel cahaya Ultraman Taigas. Kisah baru dimulai ketika kekuatan Taigas bangkit kembali dari tubuh Hiroyukis!</item>
+    </string-array>
+    <string-array name="status_tv_show">
+        <item>Kembali seri</item>
+        <item>Kembali seri</item>
+        <item>Kembali seri</item>
+        <item>Kembali seri</item>
+        <item>Kembali seri</item>
+        <item>Kembali seri</item>
+        <item>Kembali seri</item>
+        <item>Kembali seri</item>
+        <item>Kembali seri</item>
+        <item>Kembali seri</item>
+        <item>Kembali seri</item>
+    </string-array>
+    <string-array name="network">
+        <item>https://image.tmdb.org/t/p/h30/aexGjtcs42DgRtZh7zOxayiry4J.png</item>
+        <item>https://image.tmdb.org/t/p/h30/kGRavMqgyx4p2X4C96bjRCj50oI.png</item>
+        <item>https://image.tmdb.org/t/p/h30/ndAvF4JLsliGreX87jAc9GdjmJY.png</item>
+        <item>https://image.tmdb.org/t/p/h30/65r0kR6MfOBYF0gEQsJGM6v5fEG.png</item>
+        <item>https://image.tmdb.org/t/p/h30/tuomPhY2UtuPTqqFnKMVHvSb724.png</item>
+        <item>https://image.tmdb.org/t/p/h30/iYfrkobwDhTOFJ4AXYPSLIEeaAT.png</item>
+        <item>https://image.tmdb.org/t/p/h30/8GJjw3HHsAJYwIWKIPBPfqMxlEa.png</item>
+        <item>https://image.tmdb.org/t/p/h30/kGRavMqgyx4p2X4C96bjRCj50oI.png</item>
+        <item>https://image.tmdb.org/t/p/h30/rsz16keQ0hiBWYpaKIFspsMwuqj.png</item>
+        <item>https://image.tmdb.org/t/p/h30/qWvC2SCqIGhm7hPGtqaPjL4tPvx.png</item>
+        <item>https://image.tmdb.org/t/p/h30/kGRavMqgyx4p2X4C96bjRCj50oI.png</item>
+    </string-array>
+    <string-array name="languages_tv_show">
+        <item>Inggris</item>
+        <item>Jepang</item>
+        <item>Inggris</item>
+        <item>Inggris</item>
+        <item>Inggris</item>
+        <item>Inggris</item>
+        <item>Inggris</item>
+        <item>Jepang</item>
+        <item>Inggris</item>
+        <item>Turki</item>
+        <item>Jepang</item>
+    </string-array>
+    <string-array name="runtime">
+        <item>50 Menit</item>
+        <item>24 Menit</item>
+        <item>43 Menit</item>
+        <item>22 Menit</item>
+        <item>53 Menit</item>
+        <item>45 Menit</item>
+        <item>-</item>
+        <item>24 Menit</item>
+        <item>42 Menit</item>
+        <item>120 Menit</item>
+        <item>25 Menit</item>
+    </string-array>
+    <string-array name="genre_tv_show">
+        <item>Aksi dan Petualangan, Fiksi Ilmiah, dan Fantasi</item>
+        <item>Aksi dan Petualangan, Animasi, Komedi</item>
+        <item>Drama, Aksi dan Petualangan, Fiksi Ilmiah, dan Fantasi</item>
+        <item>Aksi dan Petualangan, Animasi</item>
+        <item>Drama</item>
+        <item>Drama, Aksi dan Petualangan, Fiksi Ilmiah, dan Fantasi</item>
+        <item>Misteri, Fiksi Ilmiah, dan Fantasi</item>
+        <item>Animasi, Aksi dan Petualangan, Fiksi Ilmiah dan Fantasi</item>
+        <item>Drama, Fiksi Ilmiah, dan Fantasi</item>
+        <item>Drama, Komedi</item>
+        <item>Aksi dan Petualangan, Fiksi Ilmiah dan Fantasi</item>
+    </string-array>
+    <string-array name="thumb_tv_show">
+        <item>https://image.tmdb.org/t/p/w600_and_h900_bestv2/vT0Zsbm4GWd7llNjgWEtwY0CqOv.jpg</item>
+        <item>https://image.tmdb.org/t/p/w600_and_h900_bestv2/iE3s0lG5QVdEHOEZnoAxjmMtvne.jpg</item>
+        <item>https://image.tmdb.org/t/p/w600_and_h900_bestv2/cXiETfFK1BTLest5fhTLfDLRdL6.jpg</item>
+        <item>https://image.tmdb.org/t/p/w600_and_h900_bestv2/gPUW5fUKZtLkmlWqZteLBeXPymC.jpg</item>
+        <item>https://image.tmdb.org/t/p/w600_and_h900_bestv2/5mi3aRl16yKmfpQJMzvqN5TXkdA.jpg</item>
+        <item>https://image.tmdb.org/t/p/w600_and_h900_bestv2/uiinjmSkka6JOrk4FsZmrjlNM26.jpg</item>
+        <item>https://image.tmdb.org/t/p/w600_and_h900_bestv2/wwAy8PF5fx1ttY5T4pltL2vxNgs.jpg</item>
+        <item>https://image.tmdb.org/t/p/w600_and_h900_bestv2/Ss2dAiauxSKI3OsM8wV94T4ibq.jpg</item>
+        <item>https://image.tmdb.org/t/p/w600_and_h900_bestv2/jYwhgaPwDbgC1MneMsAZTkcPcLJ.jpg</item>
+        <item>https://image.tmdb.org/t/p/w600_and_h900_bestv2/q3W3WBoprwN4Nru8BQAOTlN0CIO.jpg</item>
+        <item>https://image.tmdb.org/t/p/w600_and_h900_bestv2/gHTpqyNBt2Tcd396xzDdU7D35Mh.jpg</item>
+    </string-array>
+</resources>

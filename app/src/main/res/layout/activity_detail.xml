@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_view"
+        android:background="@drawable/bg_gradient_blue"
+        tools:context=".activities.MainActivity">
+
+        <View
+            android:id="@+id/view"
+            style="@style/StyleViewDetailMovie"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:background="@drawable/bg_left"
+            app:layout_constraintEnd_toStartOf="@+id/view1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/view1"
+            style="@style/StyleViewDetailMovie"
+            android:layout_marginEnd="@dimen/activity_horizontal_margin"
+            android:background="@drawable/bg_right"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/view"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/poster"
+            style="@style/PosterDetail"
+            android:contentDescription="@string/desc_poster_detail"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:src="@drawable/poster_avengerinfinity" />
+
+        <TextView
+            android:id="@+id/title_film"
+            style="@style/TitleStyle"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.501"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/poster"
+            tools:text="@string/title" />
+
+        <TextView
+            android:id="@+id/overview"
+            style="@style/ItemTextStyle"
+            android:text="@string/overview"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view1" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/overviewLayout"
+            style="@style/CardViewDetail"
+            app:layout_constraintBottom_toBottomOf="@id/detail_view"
+            app:layout_constraintBottom_toTopOf="@+id/detail_view"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/overview">
+
+            <TextView
+                android:id="@+id/overview_film"
+                style="@style/OverviewTextView"
+                tools:text="@string/overview_value" />
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/detail_view"
+            style="@style/ItemTextStyle"
+            android:text="@string/detail_movie"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/overviewLayout" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/detailLayout"
+            style="@style/CardViewDetail"
+            app:layout_constraintBottom_toTopOf="@+id/view"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/detail_view"
+            app:layout_constraintVertical_bias="0.0">
+
+            <TableLayout
+                android:id="@+id/table_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/activity_horizontal_margin"
+                android:gravity="center"
+                app:layout_constraintBottom_toBottomOf="@+id/detailLayout"
+                app:layout_constraintEnd_toEndOf="@id/detailLayout"
+                app:layout_constraintStart_toStartOf="@id/detailLayout"
+                app:layout_constraintTop_toTopOf="@+id/detailLayout">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        style="@style/TextTableRowLeft"
+                        android:text="@string/released_status" />
+
+                    <TextView
+                        android:id="@+id/release_statue"
+                        style="@style/TextTableRowRight"
+                        tools:text="@string/statue_film" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_view">
+
+                    <TextView
+                        style="@style/TextTableRowLeft"
+                        android:text="@string/released_date" />
+
+                    <TextView
+                        android:id="@+id/date_film"
+                        style="@style/TextTableRowRight"
+                        tools:text="@string/release_date" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_view">
+
+                    <TextView
+                        style="@style/TextTableRowLeft"
+                        android:text="@string/original_language" />
+
+                    <TextView
+                        android:id="@+id/language"
+                        style="@style/TextTableRowRight"
+                        tools:text="@string/language" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_view">
+
+                    <TextView
+                        style="@style/TextTableRowLeft"
+                        android:text="@string/budget" />
+
+                    <TextView
+                        android:id="@+id/budget_film"
+                        style="@style/TextTableRowRight"
+                        tools:text="@string/budget_value" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_view">
+
+                    <TextView
+                        style="@style/TextTableRowLeft"
+                        android:text="@string/revenue" />
+
+                    <TextView
+                        android:id="@+id/revenue_film"
+                        style="@style/TextTableRowRight"
+                        tools:text="@string/budget_value" />
+                </TableRow>
+            </TableLayout>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/genreView"
+            style="@style/ItemTextStyle"
+            android:text="@string/genre"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/detailLayout" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvGenre"
+            style="@style/CardViewActor"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/genreView">
+
+            <TextView
+                android:id="@+id/genre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:padding="@dimen/margin_view"
+                android:textSize="18sp"
+                tools:text="@string/genre_value" />
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/actor_view"
+            style="@style/ItemTextStyle"
+            android:text="@string/actor"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cvGenre" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv_actor1"
+            style="@style/CardViewActor"
+            android:layout_marginStart="@dimen/margin_view"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/actor_view">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/textview_margin_bottom"
+                android:orientation="vertical">
+
+                <de.hdodenhof.circleimageview.CircleImageView style="@style/CircleImageActor" />
+
+                <TextView
+                    android:id="@+id/actor_1_detail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    tools:text="@string/actor_name" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv_actor2"
+            style="@style/CardViewActor"
+            app:layout_constraintEnd_toEndOf="@id/cv_actor3"
+            app:layout_constraintStart_toStartOf="@id/cv_actor1"
+            app:layout_constraintTop_toBottomOf="@id/actor_view">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/textview_margin_bottom"
+                android:orientation="vertical">
+
+                <de.hdodenhof.circleimageview.CircleImageView style="@style/CircleImageActor" />
+
+                <TextView
+                    android:id="@+id/actor_2_detail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    tools:text="@string/actor_name" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv_actor3"
+            style="@style/CardViewActor"
+            android:layout_marginEnd="@dimen/margin_view"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/actor_view">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/textview_margin_bottom"
+                android:orientation="vertical">
+
+                <de.hdodenhof.circleimageview.CircleImageView style="@style/CircleImageActor" />
+
+                <TextView
+                    android:id="@+id/actor_3_detail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    tools:text="@string/actor_name" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
